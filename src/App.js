@@ -1,27 +1,27 @@
 import React from 'react';
 import Card from './Card';
 import './App.css';
-import NavBar from './NavBar';
+import Sdata from './Sdata';
 
 function App() {
     return (
         <>
-            <NavBar />
-            <Card imgSrc="https://occ-0-1722-1723.1.nflxso.net/dnm/api/v6/evlCitJPPCVCry0BZlEFb5-QjKc/AAAABR4qjNIksGXAbvmta4i-LMo5Jal6-ztG8FVimXo7wBHvA9uw8sqDFuQ62hDKjt5ulcTOPILjuPgnPxhfwCg1msWEJJgFUgc2RFK5BHjl0NQhHm1Eobdb26NGjXrZaEvTXs9SXb_No9jKVXCruU1TYlpXmKqiJAs.jpg"
-                title="A Netflix Original Series"
-                sname="DARK" link="https://www.netflix.com/pk/title/80100172" target="_blank" />
-            <Card imgSrc="https://occ-0-1722-1723.1.nflxso.net/dnm/api/v6/evlCitJPPCVCry0BZlEFb5-QjKc/AAAABZfj3AT25X5O0h3mw_EO2YLPxctxuC_o4rOD8URUJxSKFHcZEkEWkBzPEax2_9PRPUWe55wQMnaOubMBJByD-XPImrLfHOOD8B2-ulS7frSlz04CMPmlVJFMDh6Cmw.jpg"
-                title="A Netflix Original Series"
-                sname="Extra Curricular" link="https://www.netflix.com/pk/title/80990668" target="_blank" />
-            <Card imgSrc="https://occ-0-1723-1722.1.nflxso.net/dnm/api/v6/XsrytRUxks8BtTRf9HNlZkW2tvY/AAAABTCRHQoanH5M86BeYHJDPlLPOhT0Z85D0m0CCPM4JVNtiHT4zSwJiEpyqtzctJRTc_bdlFZ5HrwYrlNP3MChri5YrJn48P4oVKsHps8uD3SPS_pWl4P__5OAORLp0fpaaCgxNpHyoHEQJaQTIlgGqw.jpg"
-                title="A Netflix Original Series"
-                sname="Stranger Things" link="https://www.netflix.com/pk/title/80057281" target="_blank" />
-            <Card imgSrc="https://occ-0-1723-1722.1.nflxso.net/dnm/api/v6/XsrytRUxks8BtTRf9HNlZkW2tvY/AAAABemUFIQksgwOxG1UZfxZ2rcOpAo_cGc3h8CkWvoe7Ia360WnEKLIPP5VjJ5cobOxwF6tSJ7ieFBzQA7VYSPTrtjnbBxCsf0WJ06KrrYo-r8DJHp_XBkrKatPnV3azQAygyoIR_35C9P6TE0uuMXvon9xTdxa4lU.jpg"
-                title="A Netflix Original Series"
-                sname="Sacred Games" link="https://www.netflix.com/pk/title/80115328" target="_blank" />
-            <Card imgSrc="https://occ-0-1723-1722.1.nflxso.net/dnm/api/v6/XsrytRUxks8BtTRf9HNlZkW2tvY/AAAABSqzzi5NHlCbUuvwL8QkDudQ9Zl1D-_4Iga1zOly0IPAs-DzYbmRA90bz_wrsIMlPVGqN1YgtL995trzu1R8XZL07Y61d2GaLbeivrAS91FB1EHhNDX5JDAgXAjv0A.jpg"
-                title="A Netflix Original Series"
-                sname="The Witcher" link="https://www.netflix.com/pk/title/80189685" target="_blank" />
+            <h1 className="heading_style">List of Top 5 Netflix Series of 2020</h1>
+            <Card imgSrc={Sdata[0].imgSrc}
+                title={Sdata[0].title}
+                sname={Sdata[0].sname} link={Sdata[0].link} target={Sdata[0].target} />
+            <Card imgSrc={Sdata[1].imgSrc}
+                title={Sdata[1].title}
+                sname={Sdata[1].sname} link={Sdata[1].link} target={Sdata[1].target} />
+            <Card imgSrc={Sdata[2].imgSrc}
+                title={Sdata[2].title}
+                sname={Sdata[2].sname} link={Sdata[2].link} target={Sdata[2].target} />
+            <Card imgSrc={Sdata[3].imgSrc}
+                title={Sdata[3].title}
+                sname={Sdata[3].sname} link={Sdata[3].link} target={Sdata[3].target} />
+            <Card imgSrc={Sdata[4].imgSrc}
+                title={Sdata[4].title}
+                sname={Sdata[4].sname} link={Sdata[4].link} target={Sdata[4].target} />
         </>
     )
 }
