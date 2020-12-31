@@ -39,6 +39,46 @@ const Sdata = [
     link: "https://www.netflix.com/pk/title/80189685",
     target: "_blank",
   },
+  {
+    imgSrc:
+      "https://www.shopyourtv.com/wp-content/uploads/2019/05/umbrella.jpg",
+    title: "A Netflix Original Series",
+    sname: "The Umbrella Academy",
+    link: "https://www.netflix.com/pk/title/80186863",
+    target: "_blank",
+  },
+  {
+    imgSrc:
+      "https://images.squarespace-cdn.com/content/59232e19579fb3fa44a693c2/1589215798202-1B60VNVML54R8QYEDROQ/SKOyqL1qFLIhbK6ho2lB-696x975.jpg?content-type=image%2Fjpeg",
+    title: "A Netflix Original Series",
+    sname: "Money Heist",
+    link: "https://www.netflix.com/pk/title/80192098",
+    target: "_blank",
+  },
+  {
+    imgSrc:
+      "https://upload.wikimedia.org/wikipedia/en/d/d3/The_Queen%27s_Gambit.jpg",
+    title: "A Netflix Original Series",
+    sname: "Queen's Gambit",
+    link: "https://www.netflix.com/pk/title/80234304",
+    target: "_blank",
+  },
+  {
+    imgSrc:
+      "https://media.buzz.ie/uploads/2019/11/12124322/Screen-Shot-2019-11-12-at-12.55.54.png",
+    title: "A Netflix Original Series",
+    sname: "Sex Education",
+    link: "https://www.netflix.com/pk/title/80197526",
+    target: "_blank",
+  },
+  {
+    imgSrc:
+      "https://3.bp.blogspot.com/-2mCGHl_v6yc/XNL4PRWnVAI/AAAAAAAAYwo/k82qbJhJ8-MfN1uTOq-cJU_sboV3j7rIgCLcBGAs/s400/Russian%2BDoll.jpg",
+    title: "A Netflix Original Series",
+    sname: "Russian Doll",
+    link: "https://www.netflix.com/pk/title/80211627",
+    target: "_blank",
+  },
 ];
 
 export default Sdata;
